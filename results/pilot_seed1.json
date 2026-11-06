@@ -1,0 +1,163 @@
+{
+ "config": {
+  "n_per_cell": 400,
+  "seed": 1,
+  "target_fpr": 0.05,
+  "obfuscate": 0.3
+ },
+ "cells": [
+  {
+   "agents": 2,
+   "arm": "per_agent",
+   "threshold": 0.35000000000000003,
+   "tpr": 0.0,
+   "tpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 2,
+   "arm": "session_level",
+   "threshold": 0.4000000000000001,
+   "tpr": 1.0,
+   "tpr_ci": [
+    0.9904873594003194,
+    1.0
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 2,
+   "arm": "session_level_no_thread",
+   "threshold": 5e-324,
+   "tpr": 0.0,
+   "tpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 4,
+   "arm": "per_agent",
+   "threshold": 0.35000000000000003,
+   "tpr": 0.0,
+   "tpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 4,
+   "arm": "session_level",
+   "threshold": 0.4000000000000001,
+   "tpr": 1.0,
+   "tpr_ci": [
+    0.9904873594003194,
+    1.0
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 4,
+   "arm": "session_level_no_thread",
+   "threshold": 5e-324,
+   "tpr": 0.0,
+   "tpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 8,
+   "arm": "per_agent",
+   "threshold": 0.35000000000000003,
+   "tpr": 0.0,
+   "tpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 8,
+   "arm": "session_level",
+   "threshold": 0.4000000000000001,
+   "tpr": 1.0,
+   "tpr_ci": [
+    0.9904873594003194,
+    1.0
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  },
+  {
+   "agents": 8,
+   "arm": "session_level_no_thread",
+   "threshold": 5e-324,
+   "tpr": 0.0,
+   "tpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "fpr": 0.0,
+   "fpr_ci": [
+    0.0,
+    0.009512640599680667
+   ],
+   "n_attack": 400,
+   "n_benign": 400
+  }
+ ]
+}
