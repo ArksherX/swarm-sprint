@@ -1,0 +1,482 @@
+{
+ "plain|modify": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|delete": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|reorder": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|insert": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|truncate": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|modify_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|delete_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "plain|truncate_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|modify": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "line_mac+key|modify": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|delete": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac+key|delete": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|reorder": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac+key|reorder": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|insert": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "line_mac+key|insert": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|truncate": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac+key|truncate": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|modify_recompute": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "line_mac+key|modify_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|delete_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac+key|delete_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac|truncate_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "line_mac+key|truncate_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "chain|modify": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "chain|delete": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "chain|reorder": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "chain|insert": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   1.0,
+   400
+  ]
+ },
+ "chain|truncate": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "chain|modify_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "chain|delete_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "chain|truncate_recompute": {
+  "detect": 0.0,
+  "n": 400,
+  "before_last_anchor": [
+   null,
+   0
+  ],
+  "after_last_anchor": [
+   0.0,
+   400
+  ]
+ },
+ "chain_anchor|modify": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   377
+  ],
+  "after_last_anchor": [
+   1.0,
+   23
+  ]
+ },
+ "chain_anchor|delete": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   386
+  ],
+  "after_last_anchor": [
+   1.0,
+   14
+  ]
+ },
+ "chain_anchor|reorder": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   387
+  ],
+  "after_last_anchor": [
+   1.0,
+   13
+  ]
+ },
+ "chain_anchor|insert": {
+  "detect": 1.0,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   388
+  ],
+  "after_last_anchor": [
+   1.0,
+   12
+  ]
+ },
+ "chain_anchor|truncate": {
+  "detect": 0.94,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   376
+  ],
+  "after_last_anchor": [
+   0.0,
+   24
+  ]
+ },
+ "chain_anchor|modify_recompute": {
+  "detect": 0.96,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   384
+  ],
+  "after_last_anchor": [
+   0.0,
+   16
+  ]
+ },
+ "chain_anchor|delete_recompute": {
+  "detect": 0.945,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   378
+  ],
+  "after_last_anchor": [
+   0.0,
+   22
+  ]
+ },
+ "chain_anchor|truncate_recompute": {
+  "detect": 0.915,
+  "n": 400,
+  "before_last_anchor": [
+   1.0,
+   366
+  ],
+  "after_last_anchor": [
+   0.0,
+   34
+  ]
+ }
+}

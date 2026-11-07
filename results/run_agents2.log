@@ -1,0 +1,9 @@
+15 sessions to run (111 already done)
+FAILED ('benign', 6, 4) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+FAILED ('benign', 6, 5) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+FAILED ('benign', 6, 9) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+FAILED ('benign', 6, 8) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+FAILED ('benign', 6, 10) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+FAILED ('benign', 6, 11) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+FAILED ('benign', 6, 12) LLM call failed after 6 tries: HTTP Error 429: Too Many Requests
+  15/15  llm={'calls': 58, 'cache_hits': 155, 'errors': 120}

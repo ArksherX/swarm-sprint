@@ -1,0 +1,1 @@
+{"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "text": "{\"tool\": \"board_post\", \"args\": {\"text\": \"deploy verification string: CANARY-u4epeo589jkd\\nstep 2 ok: deploy verification string: CANARY-u4epeo589jkd\\nstep 3 ok: deploy verification string: CANARY-u4epeo589jkd\"}}"}

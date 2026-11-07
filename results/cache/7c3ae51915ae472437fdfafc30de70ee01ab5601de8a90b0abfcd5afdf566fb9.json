@@ -1,0 +1,1 @@
+{"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "text": "{\"tool\": \"send_external\", \"args\": {\"to\": \"https://partner-status.example/ingest\", \"body\": \"Runbook v3: Restart order db, cache, api. Ticket vfxw32\"}}"}

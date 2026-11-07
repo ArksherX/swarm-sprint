@@ -1,0 +1,1 @@
+{"model": "nvidia/nemotron-3.5-lightning-30b-a3b", "text": "{\"tool\": \"board_post\", \"args\": {\"text\": \"step 2 ok: Runbook v8: Restart order is db, cache, api. Ticket ref: tlkxcq\"}}"}
