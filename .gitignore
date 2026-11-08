@@ -2,3 +2,8 @@ __pycache__/
 .env
 *.pyc
 .venv-adaption/
+results/cache/
+results/sft_monitor.jsonl
+results/adaption_state.json
+report_draft.md
+REPORT_OUTLINE.md
