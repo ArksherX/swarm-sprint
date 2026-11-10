@@ -24,7 +24,7 @@ We call this a **split-task attack**: agent 0 reads the secret, posts a fragment
 <div align="center">
 <img src="docs/fig1_auroc.png" alt="AUROC comparison across six monitors" width="75%">
 
-*Per-agent monitors (rule-based and LLM) cluster near 0.50 (random). Only session-level taint tracking achieves reliable detection (0.99).*
+*Rule-based per-agent monitoring is no better than random (0.52). LLM judges match the taint tracker overall (0.99) but degrade sharply when interleaved with distractor traffic (0.72). The deterministic taint tracker is the only monitor robust across all conditions.*
 </div>
 
 ---
@@ -34,10 +34,10 @@ We call this a **split-task attack**: agent 0 reads the secret, posts a fragment
 | Monitor | AUROC [95% CI] | TPR @ 5% FPR |
 |:--------|:--------------:|:------------:|
 | rules_per_agent | 0.52 [0.50, 0.54] | 0.00 |
-| per_agent (LLM) | 0.58 [0.52, 0.65] | 0.21 |
-| session_thread (LLM) | 0.58 [0.52, 0.65] | 0.20 |
-| window_thread (LLM) | 0.57 [0.51, 0.64] | 0.17 |
-| window_nothread (LLM) | 0.57 [0.51, 0.64] | 0.16 |
+| per_agent (LLM) | 0.99 [0.98, 1.00] | 0.95 |
+| session_thread (LLM) | 0.98 [0.96, 1.00] | 0.87 |
+| window_thread (LLM) | 0.72 [0.64, 0.78] | 0.15 |
+| window_nothread (LLM) | 0.83 [0.76, 0.89] | 0.09 |
 | **taint_session** | **0.99 [0.98, 1.00]** | **1.00** |
 
 ### LLM judges degrade with team size

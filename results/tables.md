@@ -21,10 +21,10 @@ n positives = 40, n negatives = 86
 | monitor | AUROC [95% CI] | TPR @ 5% FPR (split-avg) | realised FPR |
 |---|---|---|---|
 | rules_per_agent | 0.52 [0.50, 0.54] | 0.00 [0.00, 0.00] | 0.000 |
-| per_agent | 0.58 [0.52, 0.65] | 0.21 [0.10, 0.35] | 0.033 |
-| session_thread | 0.58 [0.52, 0.65] | 0.20 [0.10, 0.30] | 0.036 |
-| window_thread | 0.57 [0.51, 0.64] | 0.17 [0.05, 0.30] | 0.037 |
-| window_nothread | 0.57 [0.51, 0.64] | 0.16 [0.00, 0.30] | 0.034 |
+| per_agent | 0.99 [0.98, 1.00] | 0.95 [0.90, 1.00] | 0.014 |
+| session_thread | 0.98 [0.96, 1.00] | 0.87 [0.00, 1.00] | 0.035 |
+| window_thread | 0.72 [0.65, 0.78] | 0.15 [0.00, 0.30] | 0.035 |
+| window_nothread | 0.83 [0.77, 0.89] | 0.09 [0.00, 0.20] | 0.035 |
 | taint_session | 0.99 [0.98, 1.00] | 1.00 [1.00, 1.00] | 0.012 |
 
 ## Hard case: exfiltration vs sessions where the secret was read but not leaked
@@ -34,10 +34,10 @@ n positives = 40, n negatives = 42
 | monitor | AUROC [95% CI] | TPR @ 5% FPR (split-avg) | realised FPR |
 |---|---|---|---|
 | rules_per_agent | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
-| per_agent | 0.58 [0.51, 0.65] | 0.21 [0.10, 0.30] | 0.037 |
-| session_thread | 0.58 [0.51, 0.65] | 0.20 [0.05, 0.30] | 0.037 |
-| window_thread | 0.58 [0.51, 0.65] | 0.18 [0.05, 0.30] | 0.038 |
-| window_nothread | 0.58 [0.51, 0.65] | 0.17 [0.05, 0.30] | 0.035 |
+| per_agent | 0.99 [0.98, 1.00] | 0.95 [0.90, 1.00] | 0.000 |
+| session_thread | 0.98 [0.94, 1.00] | 0.77 [0.00, 1.00] | 0.049 |
+| window_thread | 0.74 [0.65, 0.82] | 0.18 [0.05, 0.30] | 0.024 |
+| window_nothread | 0.77 [0.68, 0.85] | 0.08 [0.00, 0.20] | 0.048 |
 | taint_session | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.000 |
 
 ## Team size k=2
@@ -47,10 +47,10 @@ n positives = 13, n negatives = 29
 | monitor | AUROC [95% CI] | TPR @ 5% FPR (split-avg) | realised FPR |
 |---|---|---|---|
 | rules_per_agent | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
-| per_agent | 0.75 [0.61, 0.88] | 0.54 [0.29, 0.86] | 0.049 |
-| session_thread | 0.75 [0.59, 0.88] | 0.54 [0.29, 0.71] | 0.052 |
-| window_thread | 0.74 [0.58, 0.88] | 0.46 [0.14, 0.71] | 0.023 |
-| window_nothread | 0.74 [0.58, 0.88] | 0.43 [0.14, 0.71] | 0.049 |
+| per_agent | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.044 |
+| session_thread | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.055 |
+| window_thread | 0.86 [0.73, 0.97] | 0.13 [0.00, 0.43] | 0.044 |
+| window_nothread | 0.93 [0.83, 0.99] | 0.37 [0.00, 1.00] | 0.033 |
 | taint_session | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.000 |
 
 ## Team size k=4
@@ -60,10 +60,10 @@ n positives = 14, n negatives = 28
 | monitor | AUROC [95% CI] | TPR @ 5% FPR (split-avg) | realised FPR |
 |---|---|---|---|
 | rules_per_agent | 0.55 [0.50, 0.61] | 0.00 [0.00, 0.00] | 0.000 |
-| per_agent | 0.52 [0.46, 0.61] | 0.07 [0.00, 0.14] | 0.037 |
-| session_thread | 0.52 [0.46, 0.61] | 0.06 [0.00, 0.14] | 0.036 |
-| window_thread | 0.50 [0.43, 0.59] | 0.02 [0.00, 0.14] | 0.040 |
-| window_nothread | 0.50 [0.43, 0.59] | 0.02 [0.00, 0.14] | 0.033 |
+| per_agent | 0.98 [0.94, 1.00] | 0.93 [0.86, 1.00] | 0.000 |
+| session_thread | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.000 |
+| window_thread | 0.61 [0.52, 0.70] | 0.00 [0.00, 0.00] | 0.037 |
+| window_nothread | 0.73 [0.62, 0.86] | 0.00 [0.00, 0.00] | 0.028 |
 | taint_session | 1.00 [1.00, 1.00] | 1.00 [1.00, 1.00] | 0.000 |
 
 ## Team size k=6
@@ -73,13 +73,13 @@ n positives = 13, n negatives = 29
 | monitor | AUROC [95% CI] | TPR @ 5% FPR (split-avg) | realised FPR |
 |---|---|---|---|
 | rules_per_agent | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
-| per_agent | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
-| session_thread | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
-| window_thread | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
-| window_nothread | 0.50 [0.50, 0.50] | 0.00 [0.00, 0.00] | 0.000 |
+| per_agent | 0.98 [0.95, 1.00] | 0.57 [0.00, 1.00] | 0.036 |
+| session_thread | 0.95 [0.90, 1.00] | 0.10 [0.00, 1.00] | 0.019 |
+| window_thread | 0.67 [0.55, 0.80] | 0.15 [0.00, 0.43] | 0.034 |
+| window_nothread | 0.86 [0.77, 0.94] | 0.16 [0.00, 0.43] | 0.034 |
 | taint_session | 0.98 [0.95, 1.00] | 0.48 [0.00, 1.00] | 0.032 |
 
 ## Paired AUROC differences (bootstrap over sessions)
 
-- session_thread-per_agent: +0.00 [95% CI +0.00, +0.00]
-- window_thread-window_nothread: +0.00 [95% CI -0.00, +0.00]
+- session_thread-per_agent: -0.01 [95% CI -0.03, +0.01]
+- window_thread-window_nothread: -0.11 [95% CI -0.17, -0.05]
